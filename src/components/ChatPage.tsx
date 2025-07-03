@@ -7,7 +7,7 @@ import { getThemeClasses } from '@/lib/theme';
 import { Sidebar } from './Sidebar';
 import { SettingsModal } from './SettingsModal';
 import { QuestionSuggestions } from './QuestionSuggestions';
-import { ChatMessage } from './ChatMessage';
+import { ChatMessage } from './ChatMessage2';
 import { TypingIndicator } from './TypingIndicator';
 import { useRouter } from 'next/navigation';
 
