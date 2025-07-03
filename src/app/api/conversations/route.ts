@@ -28,12 +28,13 @@ export async function POST(req: NextRequest) {
         updatedAt: new Date(),
         
       },
-      create: {
-        id,
-        title,
-        messages,
-        updatedAt: new Date(),
-      },
+        create: {
+            id, // Assuming id is provided in the request
+            userId: 'defaultUserId', // Replace with actual user ID logic
+            title,
+            messages,
+        },
+    
     });
 
     return NextResponse.json(upserted);
